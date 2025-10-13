@@ -10,5 +10,3 @@ uploads/
 exports/
 *.log
 *.tmp
-*.csv
-
