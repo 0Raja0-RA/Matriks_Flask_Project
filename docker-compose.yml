@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  zoo_flask_app:
+    build: .
+    container_name: zoo_flask_app
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    environment:
+      - FLASK_ENV=development
